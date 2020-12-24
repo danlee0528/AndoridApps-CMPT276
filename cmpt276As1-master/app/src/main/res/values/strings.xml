@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="app_name">Port And Starboard</string>
+    <string name="show_right_name">SHOW RIGHT NAME</string>
+    <string name="show_left_name">SHOW LEFT NAME</string>
+    <string name="how_to_navigate_on_a_ship">How to navigate on a ship</string>
+    <string name="means_left">MEANS LEFT</string>
+    <string name="means_right">MEANS RIGHT</string>
+    <string name="which_side_of_the_ship_is_the_following">Which side of the ship is the following?</string>
+    <string name="textview">TextView</string>
+</resources>

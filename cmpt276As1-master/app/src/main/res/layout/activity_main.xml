@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.daniellee.portandstarboard.MainActivity">
+
+    <Button
+        android:text="@string/show_left_name"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/left_btn"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        tools:ignore="UnknownId"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:text="@string/show_right_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_btn"
+        android:textSize="12sp"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/left_btn"
+        android:layout_alignBottom="@+id/left_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_navigate_on_a_ship"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="@string/means_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/answer"
+        android:layout_alignStart="@+id/answer"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/left_bot_btn"
+        android:textSize="12sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="@string/means_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/left_bot_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/right_bot_btn"
+        android:textSize="12sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/which_side_of_the_ship_is_the_following"
+        android:id="@+id/Question"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/left_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/Question"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
