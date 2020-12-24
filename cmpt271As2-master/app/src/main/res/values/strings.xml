@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="select_a_pot_to_use">Select a pot to use:</string>
+    <string name="add_pot">ADD POT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="pot_name">Pot Name:</string>
+    <string name="pot_weight_g">Pot Weight(g):</string>
+    <string name="ok">OK</string>
+    <string name="weight">weight</string>
+    <string name="name">name</string>
+    <string name="potinfo">potinfo</string>
+    <string name="back">back</string>
+    <string name="serving_weight">Serving Weight</string>
+    <string name="of_servings"># of Servings</string>
+    <string name="weight_with_food_g">Weight with food (g)</string>
+    <string name="weight_of_food_g">Weight of food (g)</string>
+    <string name="pot_weight_empty_g">Pot Weight Empty (g)</string>
+    <string name="weight_in_gram">weight in gram</string>
+    <string name="name_and_weight">name and weight</string>
+    <string name="total">TOTAL</string>
+    <string name="weight_empty_g">Weight Empty (g)</string>
+    <string name="pot">Pot</string>
+    <string name="edit">EDIT</string>
+    <string name="remove">REMOVE</string>
+    <string name="extra_features_error_checking_input_ui_improvements_text_appearance">Extra features: Error Checking Input, UI improvements(text appearance)</string>
+
+</resources>
