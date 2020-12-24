@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="by_daniel_lee">by Daniel Lee</string>
+    <string name="options">OPTIONS</string>
+    <string name="play">PLAY</string>
+    <string name="loadingimageanimation">loadingImageAnimation</string>
+    <string name="help">HELP</string>
+    <string name="ballons_in_background">ballons in background</string>
+    <string name="skeleton_flying_with_bomb">skeleton flying with bomb</string>
+    <string name="skeleton_with_bomb_in_arm">skeleton with bomb in arm</string>
+    <string name="settings">Settings</string>
+    <string name="mines"># Mines</string>
+    <string name="board_size">Board Size</string>
+    <string name="current_mines">Current # Mines :</string>
+    <string name="ok">OK</string>
+    <string name="current_board_size">Current Board Size :</string>
+    <string name="of_mines_discovered"> Mines : </string>
+    <string name="of_scans_used"> Scans : </string>
+    <string name="you_found_all_the_mines">You found all the mines</string>
+    <string name="scans_used">Current Score :</string>
+    <string name="by_daniel_lee_ahad_ejaz"><![CDATA[By Daniel Lee & Ahad Ejaz]]></string>
+    <string name="cmpt_276">CMPT 276</string>
+    <string name="daniel_lee_ahad_ejaz"><![CDATA[Daniel Lee & Ahad Ejaz]]></string>
+    <string name="mine_seeker">MINE SEEKER</string>
+    <string name="skip">SKIP</string>
+    <string name="hi_score">Hi-Score :</string>
+    <string name="games_played">Games Played :</string>
+    <string name="reset_scores">Reset Data</string>
+    <string name="hi_score_textView">Hi-Score :</string>
+    <string name="game_description">Game Description</string>
+    <string name="game_description_intro">Welcome to Mine Seeker game!</string>
+    <string name="game_description_body_1">Mine Seeker is an enhanced version of classic mine sweeper game.</string>
+    <string name="game_description_body_2">There are 3 different grid sizes available: 4x6, 5x10, 6x15 and 4 different number of mines: 6,10,15, 20.</string>
+    <string name="game_rules">GAME RULES</string>
+    <string name="game_rules_body_1">When the player taps a cell without a mine, it triggers a scan of the cell\'s row and column then displays then number of hidden mines found in its row and column.</string>
+    <string name="game_rules_body_2">SCAN: users are allowed to use maximum 2 scans on a cell with a mine</string>
+    <string name="copyright">We do not own the copyright of images and sounds used in this application.</string>
+    <string name="credits">CREDITS</string>
+    <string name="more_details">More Details</string>
+    <string name="website">http://www.cs.sfu.ca/CourseCentral/276/bfraser/assignments/Assignment3-Req-MineSeeker.pdf</string>
+    <string name="http_supercell_com_en_games_clashofclans">http://supercell.com/en/games/clashofclans/</string>
+    <string name="PREF_NAME">Game Configuration</string>
+    <string name="PREF_NUM_MINES">Number of Mines</string>
+    <string name="PREF_NUM_COL">Number of Columns</string>
+    <string name="PREF_NUM_ROW">Number of Rows</string>
+    <string name="resetDataToastMessage">User Scores and Number of Games Played Deleted</string>
+    <string name="PREF_USER_SCORE">User Score</string>
+    <string name="PREF_GAMES_PLAYED">Total Games Played</string>
+    <string name="winToastMessage">User has finished the game</string>
+    <string name="congratulationsDialog">CONGRATULATIONS</string>
+    <string name="played">Played :</string>
+
+    <string-array name="spinner_for_board_size">
+        <item>Select</item>
+        <item>4 X 6</item>
+        <item>5 X 10</item>
+        <item>6 X 15</item>
+    </string-array>
+    >
+
+    <string-array name="spinner_for_num_mines">
+        <item>Select</item>
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    >
+</resources>

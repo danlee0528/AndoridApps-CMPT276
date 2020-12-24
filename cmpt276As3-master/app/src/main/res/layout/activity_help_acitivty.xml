@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help_acitivty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.daniellee.myapplication.HelpAcitivty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/game_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstline"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:scrollbarSize="15dp"
+                android:scrollbars="vertical"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:text="@string/game_description_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/first_line_under_game_description"
+                android:textSize="12sp"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/game_description_body_1"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:id="@+id/second_line_under_game_description" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thrid_line_under_description"
+
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/game_description_body_2" />
+
+            <TextView
+                android:text="@string/game_rules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/secondHeader"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/first_line_under_game_rules"
+                android:textSize="12sp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/game_rules_body_1" />
+
+            <TextView
+                android:text="@string/game_rules_body_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/second_line_under_game_ruels"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:scrollbarSize="50dp"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:text="@string/more_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/moreDetails_header"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/website"
+                android:textSize="12sp"
+                android:textColor="@android:color/holo_blue_bright"
+                android:text="@string/website"
+                android:autoLink="web"
+                android:textColorLink="@android:color/holo_blue_bright" />
+
+            <TextView
+                android:text="@string/credits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thridHeader"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_green_light" />
+
+
+            <TextView
+                android:text="@string/http_supercell_com_en_games_clashofclans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/website2"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="12sp"
+                android:autoLink="web"
+                android:textColorLink="@android:color/holo_blue_bright" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22" />
+
+            <TextView
+                android:text="@string/copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/first_line_under_credit"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="normal|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

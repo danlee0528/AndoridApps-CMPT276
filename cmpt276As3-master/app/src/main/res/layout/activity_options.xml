@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.daniellee.myapplication.OptionsActivity"
+    android:background="@drawable/background_3">
+
+    <TextView
+        android:text="@string/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_header"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:textColor="@android:color/background_dark"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_for_board_size"
+        android:entries="@array/spinner_for_board_size"
+        android:layout_centerInParent="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@android:color/black"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_toRightOf="@+id/board_size_text"
+        android:layout_toEndOf="@+id/board_size_text"
+        android:layout_alignBottom="@+id/board_size_text"
+        android:layout_alignTop="@+id/board_size_text" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_for_num_mines"
+        android:entries="@array/spinner_for_num_mines"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@android:color/black"
+        android:layout_alignLeft="@+id/spinner_for_board_size"
+        android:layout_alignStart="@+id/spinner_for_board_size"
+        android:layout_alignRight="@+id/spinner_for_board_size"
+        android:layout_alignEnd="@+id/spinner_for_board_size"
+        android:layout_alignBottom="@+id/num_mines_text"
+        android:layout_alignTop="@+id/num_mines_text" />
+
+    <TextView
+        android:text="@string/board_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/board_size_text"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_dark"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/settings_header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="@string/mines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_mines_text"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/board_size_text"
+        android:layout_alignLeft="@+id/board_size_text"
+        android:layout_alignStart="@+id/board_size_text" />
+
+    <Button
+        android:text="@string/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ok_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="450dp"
+        android:layout_marginStart="450dp"/>
+
+    <TextView
+        android:text="@string/current_mines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentNumMines"
+        android:textSize="18sp"
+        android:layout_below="@+id/num_mines_text"
+        android:layout_toLeftOf="@+id/spinner_for_num_mines"
+        android:layout_toStartOf="@+id/spinner_for_num_mines"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text="@string/current_board_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currBoardSize"
+        android:layout_below="@+id/board_size_text"
+        android:layout_alignLeft="@+id/currentNumMines"
+        android:layout_alignStart="@+id/currentNumMines"
+        android:layout_marginTop="11dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/reset_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetDataButton"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="450dp"
+        android:layout_marginEnd="450dp"
+        android:layout_alignTop="@+id/ok_button" />
+
+</RelativeLayout>
