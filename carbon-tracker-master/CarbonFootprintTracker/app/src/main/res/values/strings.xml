@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Carbon Tracker</string>
+    <string name="view_carbon_footprint">View Carbon FootPrint</string>
+    <string name="create_a_new_journey">Create a New Journey</string>
+    <string name="add_a_new_journey">Add a New Journey</string>
+    <string name="save">Save Route</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add_a_new_car">Add a New Car</string>
+    <string name="nick_name">Nick Name:</string>
+    <string name="name">Name</string>
+    <string name="year">Year</string>
+    <string name="model">Model</string>
+    <string name="make">Make</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="distance">Distance</string>
+    <string name="nick_name_for_route">Nick Name for Route</string>
+    <string name="city_distance_in_km">City Distance in KM</string>
+    <string name="high_way_distance_in_km">Highway Distance in KM</string>
+    <string name="highway_km">Highway (km):</string>
+    <string name="city_km">City (km):</string>
+    <string name="switch_view">Switch View</string>
+    <string name="nickname_for_car">Nickname for Car</string>
+    <string name="km_driven_in_city">Km driven in city:</string>
+    <string name="km_driven_on_highway">Km driven on highway:</string>
+    <string name="route_name">Route Name:</string>
+    <string name="add_a_new_route">Add a New Route</string>
+    <string name="add_route">Add Route</string>
+    <string name="error_toast">Please name your car before adding it to your collection</string>
+    <string name="authors_text">Team Honeydew</string>
+    <string name="car_logo">Car Logo</string>
+    <string name="start_button">Start Button</string>
+    <string name="add_utility">Add Utility</string>
+    <string-array name="menu">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="initial_date">Initial Date:</string>
+    <string name="new_date">New Date</string>
+    <string name="amount">Amount :</string>
+    <string name="number_of_people">Number of People:</string>
+    <string name="select_type">Select Type:</string>
+    <string name="electricity">Electricity</string>
+    <string name="natural_gas">Natural Gas</string>
+    <string name="format_dd_mm_yyyy">Format: dd/mm/yyyy</string>
+    <string name="final_date">Final Date:</string>
+    <string name="see_my_utilities_data">See My Utilities Data</string>
+    <string name="see_my_journeys_data">See My Journeys Data</string>
+    <string name="note_for_units">Units: Gj for natural gas, kwh for electricity</string>
+    <string name="next_tip">Next Tip</string>
+    <string name="close_tips">Close</string>
+    <string name="last_28">Data for last 28 Days</string>
+    <string name="last_365">Data for last 365 days</string>
+    <string name="change_mode">Change mode</string>
+    <string name="add_a_utility_bill">Add a Utility Bill</string>
+    <string name="add_start_date">Add Start Date</string>
+    <string name="add_end_date">Add END DATE</string>
+    <string name="skytrain">Train</string>
+    <string name="notification_title">Carbon Footprint Tracker</string>
+    <string name="notification_text">Add a journey or utility to start tracking your Carbon Footprint!</string>
+    <string name="bus">Bus</string>
+    <string name="settings">Settings</string>
+    <string name="treeSetting">Show emission units as amount of days it would take for 10 trees to process</string>
+    <string name="co2emissionresult">CO2 Emission Result</string>
+    <string name="kgco2">" Kg of CO2"</string>
+    <string name="car_year">car_year</string>
+    <string name="icon">Icon</string>
+    <string name="about">About</string>
+    <string name="current_software_version">Current Software Version</string>
+    <string name="development_team">Development Team</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="publish_year">Publish Year</string>
+    <string name="sources">Sources</string>
+    <string name="cmpt_276_honeydew">CMPT 276 HoneyDew</string>
+    <string name="_2017_spring_term">2017 Spring Term</string>
+    <string name="icons">Icons</string>
+    <string name="pictures">Pictures</string>
+    <string name="https_www_sfu_ca_computing_html">https://www.sfu.ca/computing.html</string>
+    <string name="sfu_cs_homepage">SFU CS HomePage</string>
+    <string name="links">Links</string>
+    <string name="car_make">car_make</string>
+    <string name="car_model">car_model</string>
+    <string name="list_of_cars">List of Cars</string>
+    <string name="list_of_routes">List of Routes</string>
+    <string name="walk">Walk</string>
+    <string name="bike">Bike</string>
+    <string name="list_of_journeys">List of Journeys</string>
+    <string name="http_www_flaticon_com_packs_transport_27">http://www.flaticon.com/packs/transport-27</string>
+    <string name="welcome">Welcome</string>
+    <string name="loading">Loading...</string>
+    <string name="splash_background_image">splash_background_image</string>
+    <string name="list_of_utilities">List of Utilities</string>
+    <string name="graph">Graph</string>
+    <string name="utility">Utility</string>
+    <string name="journey">Journey</string>
+    <string name="http_grassdepartment_com_unityas_wp_content_uploads_2015_05_bg32_jpg">http://grassdepartment.com/unityas/wp-content/uploads/2015/05/bg32.jpg</string>
+    <string name="http_www_imgbase_info_images_safe_wallpapers_miscellaneous_8_bit_47432_8_bit_8_bit_cityscape_jpg">http://www.imgbase.info/images/safe-wallpapers/miscellaneous/8_bit/47432_8_bit_8_bit_cityscape.jpg</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="other_transportation">Other transportation</string>
+    <string name="http_www_flaticon_com_packs_multimedia_rounded_icons">http://www.flaticon.com/packs/multimedia-rounded-icons</string>
+    <string name="http_www_androidguys_com_2016_04_11_8_bit_wallpapers_youll_totally_want_for_your_android">http://www.androidguys.com/2016/04/11/8-bit-wallpapers-youll-totally-want-for-your-android/</string>
+    <string name="notification_text_bills_monthly">You haven\'t entered any utilities in a while, would you like to enter one?</string>
+    <string name="notification_text_bills">You haven\'t entered any utilities yet, would you like to enter one to track your household Carbon Footprint?</string>
+    <string name="notification_text_journeys">You haven\'t added any journeys yet, add some to start tracking your commuter Carbon Footprint.</string>
+    <string name="notification_text_journeys_none_today">You haven\'t added any journeys today, would you like to add one?</string>
+    <string name="notification_text_journeys_more_than_one" formatted="false">You entered %1$d journeys today, would you like to add any more?</string>
+    <string name="noTips">There are no more tips available. More tips will be made available if you add a Journey.</string>
+
+    <string-array name="tips_array">
+        <item>On your last added journey, you had %1$dkg emissions. Carpool with commuters that share similar trips to yours.</item>
+        <item>On your last journey, your transport emitted %1$dkg. If looking to get a new car, take into consideration fuel efficiency when choosing which vehicle to get.</item>
+        <item>Your last trip emitted %1$dkg. When possible, take a bus instead of a taxi or other forms of single-passenger transportation.</item>
+        <item>You emitted %1$d kg of CO2 on your last journey. Try to prevent stopping and accelerating as much as you can when driving.</item>
+        <item>The emissions of your last journey was %1$dkg. If you drive and encounter traffic, turn off your engine to prevent idling for long periods of time.</item>
+        <item>On your last trip, you traveled %1$d kilometers. Try to plan trips beforehand take the most direct path to your destination to avoid taking detours that will add to your trip length.</item>
+        <item>Your last journey produced %1$dkg of emissions. If going short distances, consider walking, biking, or other forms of zero-emission transportation.</item>
+        <item>You emitted %1$dkg of CO2 on your last trip. If you drive, make sure your wheels are fully inflated, as flatter tires greatly increase your emissions.</item>
+        <item>On your last bill, you used %1$dGj of Natural Gas. Taking shorter showers can help greatly reduce the amount of hot water you use, which will reduce your carbon footprint.</item>
+        <item>You generated %1$dkg of CO2 over the period of your last bill. Washing clothes in cold water will reduce the amount of unnecessary hot water you use.</item>
+        <item>Your household used %1$dGj of Natural gas, according to your last entered Natural Gas bill. Turning off heating on warmer days will drastically decrease the amount of gas used for heating.</item>
+        <item>On your last entered bill, the usage of Natural Gas in your household generated %1$dkg of CO2. If it is cold, put on a sweatshirt instead of turning up the heat.</item>
+        <item>The Electricity used over the period of your last entered bill, generated %1$dkg of CO2. Using compact fluorescent light bulbs will cut down on your electric bill and also increase the brightness of the rooms you are trying to light!</item>
+        <item>On your most recent electric bill, you household used %1$dkwh of Electricity. Unplugging electrical appliances that are not in use will reduce the amount of ambient electricity you use.</item>
+        <item>Your usage of Electricity for your last entered bill, created %1$dkg of CO2. During the warmer months, hang your clothes up to dry instead of using a drying machine to cut down on your electric bill.</item>
+        <item>Your last bill shows that your household used %1$dkwh of Electricity over the entered period. When you go on a vacation, turn off the heating in your house and put your water heater on "vacation" setting if possible.</item>
+    </string-array>
+
+</resources>

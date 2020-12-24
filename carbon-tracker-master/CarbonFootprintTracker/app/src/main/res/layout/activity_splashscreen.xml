@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context="com.cmpt276.kenneyw.carbonfootprinttracker.ui.SplashScreen">
+
+    <ImageView
+        android:id="@+id/splashbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="false"
+        android:alpha="0.8"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/image4"
+        tools:elevation="1dp"
+        android:contentDescription="@string/splash_background_image" />
+
+    <TextView
+        android:id="@+id/Splash_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/app_name"
+        android:textColor="@color/Custom3"
+        android:textSize="45sp"
+        android:textStyle="normal|bold"
+        tools:elevation="2dp" />
+
+    <TextView
+        android:id="@+id/SplashAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Splash_Title"
+        android:layout_alignRight="@+id/Splash_Title"
+        android:layout_below="@+id/Splash_Title"
+        android:text="@string/authors_text"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/SplashWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/SplashAuthor"
+        android:layout_alignRight="@+id/SplashAuthor"
+        android:layout_below="@+id/SplashAuthor"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/background_dark"
+        android:padding="5dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:endColor="#fff"
+        android:startColor="#4f626e"
+        android:useLevel="true"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
+
+    <TextView
+        android:id="@+id/SplashLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:textStyle="normal|bold|italic"
+        android:textSize="12sp"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

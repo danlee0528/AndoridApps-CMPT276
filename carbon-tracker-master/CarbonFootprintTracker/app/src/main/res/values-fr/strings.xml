@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">"Trackeur Carbone"</string>
+    <string name="view_carbon_footprint">"Voire Empreunte de Carbone"</string>
+    <string name="create_a_new_journey">"Créer un nouveau voyage"</string>
+    <string name="add_a_new_journey">"Ajouter un nouveau voyage"</string>
+    <string name="save">"Sauvegarder la route"</string>
+    <string name="edit">"Modifier"</string>
+    <string name="delete">"Supprimer"</string>
+    <string name="start">"Commencer"</string>
+    <string name="add_a_new_car">"Ajouter une nouvelle voiture"</string>
+    <string name="nick_name">"Nom:"</string>
+    <string name="name">"Nom"</string>
+    <string name="year">"Année"</string>
+    <string name="model">"Modèle"</string>
+    <string name="make">"Manufacturer"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="ok">"D'accord"</string>
+    <string name="back">"Retour"</string>
+    <string name="distance">"Distance "</string>
+    <string name="nick_name_for_route">"Nom pour la route"</string>
+    <string name="city_distance_in_km">"Distance en Ville (KM)"</string>
+    <string name="high_way_distance_in_km">"Distance sur Autoroute en KM"</string>
+    <string name="highway_km">"Autoroute (km):"</string>
+    <string name="city_km">"Ville (km):"</string>
+    <string name="switch_view">"Changer de Vue"</string>
+    <string name="nickname_for_car">"Nom pour voiture"</string>
+    <string name="km_driven_in_city">"KM parcouru en ville:"</string>
+    <string name="km_driven_on_highway">"KM parcouru sur la route:"</string>
+    <string name="route_name">"Nom de la route:"</string>
+    <string name="add_a_new_route">"Ajouter un nouvel itinéraire"</string>
+    <string name="add_route">"Ajouter un itinéraire"</string>
+    <string name="error_toast">"S'il vous plaît entrer l nom de votre voiture avant de l'ajouter à votre collection"</string>
+    <string name="authors_text">"Auteurs: Équipe Honeydew"</string>
+    <string name="car_logo">"Logo de voiture"</string>
+    <string name="start_button">"Bouton Start"</string>
+    <string name="add_utility">"Ajouter Utilitaire"</string>
+    <string-array name="menu">
+        <item>"Modifier"</item>
+        <item>"Effacer"</item>
+    </string-array>
+    <string name="initial_date">"Date initiale:"</string>
+    <string name="new_date">"nouvelle date"</string>
+    <string name="amount">"Montant:"</string>
+    <string name="number_of_people">"Nombre de personnes:"</string>
+    <string name="select_type">"Sélectionnez le type"</string>
+    <string name="electricity">"Électricité"</string>
+    <string name="natural_gas">"Gaz naturel"</string>
+    <string name="format_dd_mm_yyyy">"Format: jj / mm / aaaa"</string>
+    <string name="final_date">"Date finale:"</string>
+    <string name="see_my_utilities_data">"Voir Utilities données"</string>
+    <string name="see_my_journeys_data">"Voir mes voyages de données"</string>
+    <string name="note_for_units">"Unités: Gj pour le gaz naturel, kWh pour l'électricité"</string>
+    <string name="next_tip">"Prochain conseil"</string>
+    <string name="close_tips">"Fermer"</string>
+    <string name="last_28">"Données pour 28 derniers jours"</string>
+    <string name="last_365">"Données pour 365 derniers jours"</string>
+    <string name="routemode">"mode de Route"</string>
+    <string name="journeymode">"mode de voyage"</string>
+    <string name="add_a_utility_bill">"Ajouter un utilitaire"</string>
+    <string name="add_start_date">"Ajouter Date de début"</string>
+    <string name="add_end_date">"Ajouter DATE DE FIN"</string>
+    <string name="skytrain">"Skytrain"</string>
+    <string name="notification_title">"Trackeur empreinte carbone"</string>
+    <string name="notification_text">"Ajouter un voyage ou utilitaire pour commencer le suivi de votre empreinte carbone!"</string>
+    <string name="bus">"bus"</string>
+    <string name="settings">"Paramètres"</string>
+    <string name="treeSetting">"Montrer les unités d'émission comme quantité de jours qu'il faudrait pour 10 arbres pour traiter les émissions"</string>
+    <string name="co2emissionresult">"Résultat d'émission en CO2"</string>
+    <string name="kgco2">" Kg de CO2"</string>
+    <string name="car_year">"car_year"</string>
+    <string name="icon">"Icône"</string>
+    <string name="about">"À Propos"</string>
+    <string name="current_software_version">"Version actuelle du logiciel"</string>
+    <string name="development_team">"Équipe de développement"</string>
+    <string name="version_1_0_0">"Version 1.0.0
+"</string>
+    <string name="publish_year">"Année publiée"</string>
+    <string name="sources">"Sources"</string>
+    <string name="cmpt_276_honeydew">"CMPT 276 HoneyDew"</string>
+    <string name="_2017_spring_term">"2017 Terme de Printemps"</string>
+    <string name="icons">"Icônes"</string>
+    <string name="pictures">"Photos"</string>
+    <string name="https_www_sfu_ca_computing_html">"https://www.sfu.ca/computing.html"</string>
+    <string name="sfu_cs_homepage">"SFU CS Page d'attérissage"</string>
+    <string name="links">"Liens"</string>
+    <string name="car_make">"Voiture Manufacturer"</string>
+    <string name="car_model">"modèle de voiture"</string>
+    <string name="list_of_cars">"Liste des voitures"</string>
+    <string name="list_of_routes">"Liste des itinéraires"</string>
+    <string name="walk">"marche"</string>
+    <string name="bike">"vélo"</string>
+    <string name="list_of_journeys">"Liste de voyages"</string>
+    <string name="http_www_flaticon_com_packs_transport_27">"http://www.flaticon.com/packs/transport-27"</string>
+    <string name="list_of_utilities">"Liste de services publiques"</string>
+    <string name="notification_text_bills_monthly">"Vous n'avez pas encore entré des services publiques dans un certain temps, voulez-vous en entrer?"</string>
+    <string name="notification_text_bills">"Vous ne l'avez pas encore entré d'utilitaires, voulez-vous entrer dans une maison pour suivre votre empreinte carbone?"</string>
+    <string name="notification_text_journeys">"Vous ne l'avez pas encore ajouté de voyages, ajouter un peu pour commencer le suivi de votre empreinte carbone banlieue."</string>
+    <string name="notification_text_journeys_none_today">"Vous avez pas ajouté de voyages aujourd'hui, voulez-vous ajouter une?"</string>
+    <string formatted="false" name="notification_text_journeys_more_than_one">"Vous avez entré %1$d voyages aujourd'hui, voulez - vous ajouter plus?"</string>
+    <string name="noTips">"Il n'y a pas plus de conseils disponibles. Plus de conseils seront disponibles si vous ajoutez un voyage."</string>
+
+    <string-array name="tips_array">
+        <item>"Sur votre dernier voyage ajouté, vous avez eu %1$d émissions de kg. Covoiturage avec les navetteurs qui partagent des voyages similaires à la vôtre."</item>
+        <item>"Sur votre dernier voyage, le transport de votre émis %1$d kg. Si vous cherchez à obtenir une nouvelle voiture, prendre en efficacité énergétique de considération au moment de choisir quel véhicule pour obtenir."</item>
+        <item>"Votre dernier voyage émis %1$d kg. Lorsque cela est possible, prendre un bus au lieu d'un taxi ou d'autres formes de transport unique passagers."</item>
+        <item>"Vous ÉMISE %1$d kg de CO2 sur votre dernier voyage. Essayez d'éviter l'arrêt et d'accélérer autant que possible lors de la conduite."</item>
+        <item>"Les émissions de votre dernier voyage était %1$d kg. Si vous conduisez et rencontrez le trafic, éteignez votre moteur pour éviter la marche au ralenti pendant de longues périodes de temps."</item>
+        <item>"Sur votre dernier voyage, vous avez voyagé %1$d kilomètres. Essayez de planifier des excursions prendre à l'avance le chemin le plus direct vers votre destination pour éviter de prendre des détours qui ajouteront à la longueur de votre voyage."</item>
+        <item>"Votre voyage a produit %1$d kg d'émissions. Si courtes distances, pensez à la marche, le vélo ou d'autres formes de transport à zéro émission."</item>
+        <item>"Vous ÉMISE %1$d kg de CO2 sur votre dernier voyage. Si vous conduisez, assurez-vous que vos roues sont complètement gonflés, les pneus flattent augmentent considérablement vos émissions."</item>
+        <item>"Sur votre dernière facture, vous avez utilisé %1$d gigajoules de gaz naturel. Prendre des douches plus courtes peut aider à réduire considérablement la quantité d'eau chaude que vous utilisez, ce qui réduira votre empreinte carbone."</item>
+        <item>"Vous avez généré %1$d kg de CO2 sur la période de votre dernière facture. Se laver les vêtements à l'eau froide réduira la quantité d'eau chaude nécessaire que vous utilisez."</item>
+        <item>"Votre ménage utilise %1$d gigajoules de gaz naturel, selon votre dernière facture de gaz naturel est entré. Mise hors chauffage des jours plus chauds diminue considérablement la quantité de gaz utilisé pour le chauffage."</item>
+        <item>"Sur votre dernière facture est entré, l'utilisation du gaz naturel dans votre ménage généré %1$d kg de CO2. S'il fait froid, mettez un sweat-shirt au lieu de tourner la chaleur."</item>
+        <item>"L'électricité utilisée au cours de la période de votre dernière facture entré, généré %1$d kg de CO2. En utilisant des ampoules fluorescentes compactes permettra de réduire votre facture d'électricité et aussi augmenter la luminosité des chambres que vous essayez d'allumer!"</item>
+        <item>"Sur votre dernier facture d' électricité, vous ménage utilisé %1$d kWh d'électricité. Débranchant les appareils électriques qui ne sont pas en cours d'utilisation permettra de réduire la quantité d'électricité ambiante que vous utilisez."</item>
+        <item>"Votre utilisation de l' électricité pour votre dernière facture entré, créé %1$d kg de CO2. Pendant les mois les plus chauds, vos vêtements à sécher au lieu d'utiliser une machine de séchage pour réduire votre facture d'électricité."</item>
+        <item>"Votre dernière facture montre que votre ménage utilise %1$d kWh d'électricité sur la période entrée. Quand vous allez en vacances, éteignez le chauffage dans votre maison et mettre votre chauffe-eau sur le réglage « de vacances » si possible."</item>
+    </string-array>
+
+</resources>

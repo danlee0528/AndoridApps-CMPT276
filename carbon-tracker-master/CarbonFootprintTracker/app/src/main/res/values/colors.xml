@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dce31b61</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="Custom">#62a2c3ca</color>
+    <color name="Custom2">#f0633dd5</color>
+    <color name="Custom3">#9a30979a</color>
+    <color name="CustomForDialog">#902f6555</color>
+</resources>

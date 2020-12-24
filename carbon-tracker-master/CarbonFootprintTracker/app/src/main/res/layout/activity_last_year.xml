@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_last_year"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cmpt276.kenneyw.carbonfootprinttracker.ui.LastYearActivity"
+    android:background="@drawable/image4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:alpha="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btnOrganizeY" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lineChartY"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btnOrganizeY"> </com.github.mikephil.charting.charts.LineChart>
+
+        <Button
+            android:text="@string/switch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnSwitchViewYearly"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:text="@string/change_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:layout_above="@+id/btnSwitchViewYearly"
+            android:layout_alignLeft="@+id/btnSwitchViewYearly"
+            android:layout_alignStart="@+id/btnSwitchViewYearly"
+            android:id="@+id/btnOrganizeY" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

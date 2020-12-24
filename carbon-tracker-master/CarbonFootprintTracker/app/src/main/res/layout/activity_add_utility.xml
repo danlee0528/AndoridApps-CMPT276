@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/image1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok_button_add_utility"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textStyle="normal|bold"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add_icon" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/utility_add_cancel"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/select_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/selecttpye"
+                    android:textSize="20sp"
+                    android:textColor="@color/black" />
+
+                <RadioGroup
+                    android:id="@+id/radioUtility"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RadioButton
+                        android:id="@+id/radioElectricity"
+                        android:layout_width="153dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/electricity"
+                        android:layout_alignTop="@+id/radioNaturalGas"
+                        android:layout_toRightOf="@+id/radioNaturalGas"
+                        android:layout_toEndOf="@+id/radioNaturalGas" />
+
+                    <RadioButton
+                        android:id="@+id/radioNaturalGas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/natural_gas"
+                        android:checked="true"
+                        android:layout_below="@+id/radioUtility"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_weight="1" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/amount"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/amount"
+                            android:textSize="20sp"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/amount_text"
+                            android:layout_alignBaseline="@+id/amount"
+                            android:layout_alignBottom="@+id/amount"
+                            android:layout_toRightOf="@+id/amount"
+                            android:layout_toEndOf="@+id/amount"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/note_for_units"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginStart="18dp"
+                            android:id="@+id/note"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:layout_below="@+id/amount_text"
+                            android:layout_alignLeft="@+id/num_of_people"
+                            android:layout_alignStart="@+id/num_of_people"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:text="@string/number_of_people"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:id="@+id/num_of_people"
+                            android:textSize="20sp"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/num_people_text"
+                            android:layout_alignBaseline="@+id/num_of_people"
+                            android:layout_alignBottom="@+id/num_of_people"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_toRightOf="@+id/num_of_people"
+                            android:layout_toEndOf="@+id/num_of_people"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:text="@string/nick_name"
+                            android:layout_width="167dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nickname"
+                            android:textSize="20sp"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:ems="10"
+                            android:id="@+id/utility_nick_name_text"
+                            android:layout_alignBaseline="@+id/nickname"
+                            android:layout_alignBottom="@+id/nickname"
+                            android:layout_alignRight="@+id/num_people_text"
+                            android:layout_alignEnd="@+id/num_people_text"
+                            android:layout_alignLeft="@+id/amount_text"
+                            android:layout_alignStart="@+id/amount_text"
+                            style="@style/Widget.AppCompat.EditText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:text="@string/add_start_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/startdate_btn"
+                            android:textStyle="normal|bold"
+                            android:layout_alignBaseline="@+id/startdate_text"
+                            android:layout_alignBottom="@+id/startdate_text"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/startdate_text"
+                            android:layout_below="@+id/utility_nick_name_text"
+                            android:layout_centerHorizontal="true"
+                            android:textStyle="normal|bold"
+                            android:textColor="@android:color/background_light"
+                            android:textAllCaps="true"
+                            android:layout_marginLeft="30dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <Button
+                            android:text="@string/add_end_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/enddate_btn"
+                            android:layout_below="@+id/startdate_text"
+                            android:layout_alignLeft="@+id/startdate_btn"
+                            android:layout_alignStart="@+id/startdate_btn"
+                            android:textStyle="normal|bold"
+                            android:layout_weight="0.11" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/enddate_text"
+                            android:layout_alignBaseline="@+id/enddate_btn"
+                            android:layout_alignBottom="@+id/enddate_btn"
+                            android:layout_centerHorizontal="true"
+                            android:textStyle="normal|bold"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/background_light"
+                            android:layout_marginLeft="30dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

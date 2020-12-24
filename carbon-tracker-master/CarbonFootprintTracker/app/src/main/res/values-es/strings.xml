@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">"Rastreador de carbono"</string>
+    <string name="view_carbon_footprint">"Ver huella del carbono"</string>
+    <string name="create_a_new_journey">"Crear un nuevo viaje"</string>
+    <string name="add_a_new_journey">"Añadir un nuevo viaje"</string>
+    <string name="save">"Guardar ruta"</string>
+    <string name="edit">"Editar"</string>
+    <string name="delete">"Borrar"</string>
+    <string name="start">"Inicio"</string>
+    <string name="add_a_new_car">"Añadir un nuevo coche"</string>
+    <string name="nick_name">"Nombre:"</string>
+    <string name="name">"Nombre"</string>
+    <string name="year">"Año"</string>
+    <string name="model">"Modelo"</string>
+    <string name="make">"Marca"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="ok">"De acuerdo"</string>
+    <string name="back">"Atrás"</string>
+    <string name="distance">"Distancia"</string>
+    <string name="nick_name_for_route">"Nombre para la Ruta"</string>
+    <string name="city_distance_in_km">"Distancia en ciudad en KM"</string>
+    <string name="high_way_distance_in_km">"Distancia en carretera en KM"</string>
+    <string name="highway_km">"Carretera (km):"</string>
+    <string name="city_km">"Ciudad (km):"</string>
+    <string name="switch_view">"Cambie Vista"</string>
+    <string name="nickname_for_car">"Apodo para el coche"</string>
+    <string name="km_driven_in_city">"KM recorrido en la ciudad:"</string>
+    <string name="km_driven_on_highway">"KM recorrido en la carretera:"</string>
+    <string name="route_name">"Nombre Ruta:"</string>
+    <string name="add_a_new_route">"Añade una nueva ruta"</string>
+    <string name="add_route">"Añadir ruta"</string>
+    <string name="error_toast">"Nombre su coche antes de añadir a su colección"</string>
+    <string name="authors_text">"Autores: Equipo Honeydew"</string>
+    <string name="car_logo">"insignia del coche"</string>
+    <string name="start_button">"Botón de inicio"</string>
+    <string name="add_utility">"Añadir Utilidad"</string>
+    <string-array name="menu">
+        <item>"Editar"</item>
+        <item>"Borrar"</item>
+    </string-array>
+    <string name="initial_date">"Fecha Inicial"</string>
+    <string name="new_date">"Nueva fecha"</string>
+    <string name="amount">"Cantidad"</string>
+    <string name="number_of_people">"Número de Personas"</string>
+    <string name="select_type">"Seleccione tipo"</string>
+    <string name="electricity">"Electricidad"</string>
+    <string name="natural_gas">"Gas natural"</string>
+    <string name="format_dd_mm_yyyy">"Formato: dd / mm / aaaa"</string>
+    <string name="final_date">"Fecha final:"</string>
+    <string name="see_my_utilities_data">"Ver Mi Herramientas de datos"</string>
+    <string name="see_my_journeys_data">"Ver Mis datos Journeys"</string>
+    <string name="note_for_units">"Unidades: GJ de gas natural, en kWh de electricidad"</string>
+    <string name="next_tip">"Sugerencia siguiente"</string>
+    <string name="close_tips">"Cerrar"</string>
+    <string name="last_28">"Los datos de los últimos 28 días"</string>
+    <string name="last_365">"Los datos correspondientes a los últimos 365 días"</string>
+    <string name="routemode">"Modo de ruta"</string>
+    <string name="journeymode">"Modo de viaje"</string>
+    <string name="add_a_utility_bill">"Añadir una factura de servicios"</string>
+    <string name="add_start_date">"Añadir Fecha de Inicio"</string>
+    <string name="add_end_date">"Añadir FECHA FIN"</string>
+    <string name="skytrain">"Tren Aereo"</string>
+    <string name="notification_title">"Huella de Carbono Rastreador"</string>
+    <string name="notification_text">"Añadir un viaje o una utilidad para iniciar el seguimiento de su huella de carbono!"</string>
+    <string name="bus">"Locomoción"</string>
+    <string name="settings">"Ajustes"</string>
+    <string name="treeSetting">"Muestre las unidades de emisión como la cantidad de días que tardaría 10 árboles en procesar"</string>
+    <string name="co2emissionresult">"Resultado de emisión de CO2"</string>
+    <string name="kgco2">" Kg de CO2"</string>
+    <string name="car_year">"car_year"</string>
+    <string name="icon">"Icono"</string>
+    <string name="about">"Acerca de"</string>
+    <string name="current_software_version">"Versión actual del software"</string>
+    <string name="development_team">"Equipo de desarrollo"</string>
+    <string name="version_1_0_0">"Versión 1.0.0"</string>
+    <string name="publish_year">"Año de estreno"</string>
+    <string name="sources">"Fuentes"</string>
+    <string name="cmpt_276_honeydew">"CMPT 276 Honeydew"</string>
+    <string name="_2017_spring_term">"Período de Primavera 2017"</string>
+    <string name="icons">"Íconos"</string>
+    <string name="pictures">"Imágenes"</string>
+    <string name="https_www_sfu_ca_computing_html">"https://www.sfu.ca/computing.html"</string>
+    <string name="sfu_cs_homepage">"Página de Inicio SFU CS"</string>
+    <string name="links">"Campo de golf"</string>
+    <string name="car_make">"Marca:"</string>
+    <string name="car_model">"Modelo"</string>
+    <string name="list_of_cars">"Lista de Coches"</string>
+    <string name="list_of_routes">"Lista de las rutas"</string>
+    <string name="walk">"Ven acá. Ven acá."</string>
+    <string name="bike">"Ciclismo"</string>
+    <string name="list_of_journeys">"Lista de Viajes"</string>
+    <string name="http_www_flaticon_com_packs_transport_27">"http://www.flaticon.com/packs/transport-27"</string>
+    <string name="list_of_utilities">"Lista de Servicios publicos"</string>
+    <string name="notification_text_bills_monthly">"No se ha introducido ninguna utilidad desde hace tiempo, le gustaría entrar en uno?"</string>
+    <string name="notification_text_bills">"No se ha introducido ninguna utilidad sin embargo, le gustaría entrar en uno de rastrear su huella de carbono de los hogares?"</string>
+    <string name="notification_text_journeys">"No ha añadido ningún trayectos sin embargo, añadir un poco de iniciar el seguimiento de su huella de carbono de cercanías."</string>
+    <string name="notification_text_journeys_none_today">"No ha añadido ningún trayectos de hoy, le gustaría añadir uno?"</string>
+    <string formatted="false" name="notification_text_journeys_more_than_one">"Que ha introducido %1$d trayectos de hoy, ¿le gustaría añadir algo más?"</string>
+    <string name="noTips">"No hay más consejos disponibles. Más consejos estarán disponibles si se agrega un viaje."</string>
+
+    <string-array name="tips_array">
+        <item>"En su último viaje añadido, tenías %1$d emisiones kg. Compartir el viaje con los viajeros que comparten viajes similares a los suyos."</item>
+        <item>"En su último viaje, el transporte emite %1$d kg. Si buscan obtener un coche nuevo, tomar en consideración la eficiencia del combustible al elegir qué vehículo va a obtener."</item>
+        <item>"Su último viaje emitida %1$d kg. Cuando sea posible, tomar un autobús en vez de un taxi o de otras formas de transporte de un solo pasajero."</item>
+        <item>"Usted emitida %1$d kg de CO2 en su último viaje. Trate de evitar que parar y acelerar tanto como sea posible durante la conducción."</item>
+        <item>"Las emisiones de su último viaje fue de %1$d kg. Si viaja en coche y encuentra tráfico denso, apague el motor para evitar ralentí durante largos períodos de tiempo."</item>
+        <item>"En su último viaje, usted viajó %1$d kilómetros. Trate de planificar viajes de antemano toman el camino más directo hacia su destino para evitar que toman desvíos que se sumarán a la longitud de su viaje."</item>
+        <item>"Su último viaje produjo %1$d kg de emisiones. Si va distancias cortas, considere caminar, andar en bicicleta, u otras formas de transporte de emisiones cero."</item>
+        <item>"Usted emitida %1$d kg de CO2 en su último viaje. Si viaja en coche, asegúrese de que sus ruedas están completamente inflados, como neumáticos más planas aumentan en gran medida sus emisiones."</item>
+        <item>"En su última factura, que utilizó %1$d GJ de gas natural. Tomar duchas más cortas puede ayudar mucho a reducir la cantidad de agua caliente que utiliza, lo que reducirá su huella de carbono."</item>
+        <item>"Que generó %1$d kg de CO2 durante el periodo de su última factura. Lavar la ropa en agua fría reducirá la cantidad de agua caliente innecesaria que utilice."</item>
+        <item>"Su hogar utiliza %1$d GJ de gas natural, de acuerdo con su última factura de gas natural introducido. Desactivación de calefacción en días cálidos disminuirá drásticamente la cantidad de gas usado para el calentamiento."</item>
+        <item>"En su última factura introducido, el uso de gas natural en su hogar generó %1$d kg de CO2. Si hace frío, se puso una sudadera en lugar de subir la calefacción."</item>
+        <item>"La electricidad utilizada durante el período de su última factura introducido, generó %1$d kg de CO2. El uso de bombillas fluorescentes compactas reducirá en su factura de electricidad y también aumentar el brillo de las habitaciones que están tratando a la luz!"</item>
+        <item>"En su factura de electricidad más reciente, el hogar de uso %1$d kWh de electricidad. Desconectando los aparatos eléctricos que no están en uso reducirá la cantidad de electricidad que utiliza ambiente."</item>
+        <item>"Su uso de la electricidad para su última factura introducido, creado %1$d kg de CO2. Durante los meses más cálidos, colgar la ropa a secar en lugar de utilizar una máquina de secado para reducir su factura de electricidad."</item>
+        <item>"Su última factura muestra que su hogar utiliza %1$d kWh de electricidad durante el período introducido. Cuando se va de vacaciones, apagar la calefacción en su casa y poner el calentador de agua del ajuste de \"vacaciones\" si es posible."</item>
+    </string-array>
+
+</resources>

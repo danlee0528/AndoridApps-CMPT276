@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context="com.cmpt276.kenneyw.carbonfootprinttracker.ui.MainMenu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_a_new_journey_button"
+                android:layout_weight="1"
+                android:src="@drawable/journey_icon"
+                android:background="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/utility_add_button"
+                android:src="@drawable/utility_icon"
+                android:layout_weight="1"
+                android:background="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_cabon_footprint_button"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/graph_icon" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_btn"
+                android:layout_weight="1"
+                android:src="@drawable/help_icon"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:text="@string/journey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.76"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:text="@string/utility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.96"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="normal|bold|italic"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:text="@string/graph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.04"
+                android:textAlignment="center"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="true"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:text="@string/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.08"
+                android:textAlignment="center"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:text="@string/settings"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/utility_add_button"
+                    android:layout_toStartOf="@+id/utility_add_button"
+                    android:id="@+id/btnSettings"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/setting_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:text="@string/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.12"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="normal|bold|italic"
+                android:textAllCaps="true"
+                android:id="@+id/textView"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:id="@+id/mainmenu_tittle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
